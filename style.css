@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Navbar Section Starts */
+.sticky{
+    position: fixed;
+    top: 0;
+}
+
+.navbar-container{
+    display: flex;
+    width: 100%;
+}
+
+.nav-image{
+    height: 90px;
+    margin-right: 2rem;
+}
+
+.home-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-home-icon{
+    color: rgb(255, 204, 0);
+    height: 50%;
+    padding: 1rem;
+}
+
+.nav-home{
+    padding: 1rem;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-home:hover{
+    font-style: normal;
+    font-weight: bolder; 
+}
+
+.nav-menu{
+    margin-left: 45rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    padding: 1rem;
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: .8rem;
+}
+
+.dropbtn:hover{
+    opacity: .8;
+    background-color: orangered;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-bar{
+    text-decoration: none;
+    margin-top: 10rem;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+.menu-bar:hover{
+    color: black;
+}
+/* Navbar Section Ends */
+
+/* Banner Section Starts */
+.container1{
+    padding: 2rem;
+}
+
+.banner{
+    background-color: rgb(255, 204, 0);
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+.txt{
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-left: 10rem;
+}
+
+.txt2 {
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-left: 10rem;
+}
+
+.txt-name{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-left: 10rem;
+}
+
+.txt-myself{
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-size: 30px;
+    padding-left: 10rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.banner-cv{
+    margin-left: 65rem;
+    background-color: white;
+    color: black;
+    padding: ;
+}
+/* Banner Section Ends */
+
+/* About me Section Starts */
+#section2{
+    border: 1px solid transparent;
+    padding-bottom: 8rem;
+}
+
+.container2{
+    margin: 10rem;
+}
+
+.about-container{
+    display: flex;
+    margin: 4rem;
+}
+
+.txt-aboutme{
+    font-size: 80px;
+    color: rgb(255, 204, 0);
+    font-weight: bolder;
+    margin-top: 10rem;
+}
+
+.about-detail{
+    margin-left: 8rem;
+    margin-right: 4rem;
+}
+
+.txt-aboutme1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10rem;
+}
+
+.txt-aboutme2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.txt-aboutme3{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.more-arrow:hover{
+    font-size: 30px;
+    
+}
+
+#demo-about-me{
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.row > *{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(255, 204, 0);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card_img img{
+    vertical-align: middle;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+
+.card_detail{
+    background-color: rgb(255, 204, 0);
+    position: absolute;
+    top: 3.75rem;
+    right: 1.25rem;
+    z-index: 1;
+    width: 100%;
+    padding: 1.5625rem 1.8rem;
+    border-radius: .9375rem;
+}
+
+@media (max-width: 490px) {
+    .card_detail {
+        position: relative;
+        width: 100%;
+    }
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    background-color: rgb(255, 204, 0);
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    background-color: rgb(255, 204, 0);
+    padding-bottom: .5rem;
+}
+
+h6{
+    background-color: rgb(255, 204, 0);
+    display: block;
+    font-size: 0.67rem;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    padding-top: 1rem;
+    
+}
+
+span{
+    background-color: rgb(255, 204, 0);
+    font-weight: bolder; 
+}
+
+.about-heading{
+    color: rgb(255, 204, 0);
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h3{
+    padding-top: 3rem;
+}
+
+
+h2{
+    font-size: 2.9375rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h5{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.main-btn{
+    
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    padding: .875rem 3.125rem;
+    border-radius: .625rem;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: rgb(255, 204, 0);
+}
+
+.my-4{
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.btn1{
+    background-color: rgb(255, 204, 0);
+    border: 1px solid transparent;
+}
+
+.main-btn a{
+    text-decoration: none;
+    background-color: rgb(255, 204, 0);
+    color: white;
+    font-weight: bolder;
+}
+
+/* About me Section Ends */
+
+/* Resume Section Starts */
+#section3{
+    border: 1px solid transparent;
+}
+
+.resume{
+    background-color: rgb(255, 204, 0);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.resume-heading{
+    margin-top: 6rem;
+}
+
+.resume-heading, .resume-heading h4, .resume-heading h2{
+    background-color: rgb(255, 204, 0);
+}
+
+.resume-container{
+    padding: 1rem;
+    background-color: rgb(255, 204, 0);
+}
+
+.resume-detail{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.education, .sub-heading, .education1, .education1 h5, .education1 p, .skills, .skills h5{
+    color: white;
+    background-color: black;
+    padding: .5rem;
+}
+
+.sub-heading i{
+    background-color: black;
+    color: rgb(255, 204, 0);
+}
+
+.education1 span{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.skills{
+    margin: 4rem;
+}
+
+.progress{
+    display: flex;
+    overflow: hidden;
+    background-color: #e9ecef;
+    height: .3375rem;
+    border-radius: 3.125rem;
+    opacity: 1;
+    width: 150%;
+}
+
+.progress-bar{
+        position: absolute;
+        height: .4125rem;
+        border-radius: 3.125rem;
+    }
+
+.progress span{
+    position: absolute;
+    right: 10rem;
+    color: orangered;
+    background-color: black;
+    font-size: 18px;
+}
+
+.certification{
+    margin-bottom: 2rem;
+}
+/* Resume Section Ends */
+
+/* Project Section Starts */
+#section4{
+    margin-top: 10rem;
+    border: 1px solid transparent;
+}
+
+.project-container{
+    margin: 4rem;
+}
+
+.project-heading{
+    margin-top: 12rem;
+    color: rgb(255, 204, 0);
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 4rem;
+    
+}
+
+.project-banner{
+    margin: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.project{
+    background-color: rgb(255, 204, 0);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.project:hover{
+    opacity: .8;
+}
+
+.project h3, .project p, .project i{
+    background-color: rgb(255, 204, 0);
+}
+
+.project h3{
+    font-weight: bolder;
+}
+
+.fa-html5{
+    color: orangered;
+    font-size: 50px;
+    margin: 1rem;
+}
+
+.fa-css3-alt{
+    color: blue;
+    font-size: 50px;
+    margin: 1rem;
+}
+
+.fa-bootstrap{
+    color: purple;
+    font-size: 50px;
+    margin: 1rem;
+}
+
+.fa-js{
+    color: rgb(247, 247, 163);
+    font-size: 50px;
+    margin: 1rem;
+}
+/* Project Section Ends */
+
+/* Contact Section Starts */
+#section5{
+    margin-top: 18rem;
+}
+
+.contact-container{
+    margin-top: 8rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 204, 0);
+}
+
+.contact-heading{
+    margin-top: 8rem;
+}
+
+.contact-heading, .contact-heading h4, .contact-heading h3{
+    background-color: rgb(255, 204, 0);
+}
+
+.contact-heading h3{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.contact-details, .contact, .contact-menu, .contact-menu h5, .contact-menu p, .conatct-form, .conatct-form input, .conatct-form textarea, .form-details{
+    background-color: black;
+    color: #fff;
+}
+
+.contact-details{
+    display: flex;
+}
+
+.contact{
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+.contact-menu i{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: .5rem;
+    font-size: 30px;
+}
+
+.contact-menu h5{
+    font-size: 25px;
+}
+
+.contact-menu p{
+    margin-left: 10rem;
+}
+
+.form-details{
+    padding: 2rem;
+}
+
+.form-details input{
+    padding: 1rem;
+    margin: 2rem;
+    width: 18rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form-details textarea {
+    padding: 1rem;
+    margin: 2rem;
+    width: 38rem;
+    border-radius: 10px;
+}
+
+.submit{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: rgb(255, 204, 0);
+    opacity: .9;
+}
+
+.extra-space{
+    margin: 2rem;
+    
+}
+/* Contact Section Ends */
+
+/* Footer Section Starts */
+
+.footer-container{
+    background-color: rgb(255, 204, 0);
+    color: #fff;
+    padding: 4rem;
+    text-align: center;
+}
+
+.footer-container i{
+    background-color: rgb(255, 204, 0);
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer-container b{
+    background-color: rgb(255, 204, 0);
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+}
+/* Footer Section Ends */
